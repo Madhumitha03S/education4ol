@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Course Shop App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <main>      
+        <!--Navigation Bar-->
+        <header>
+            <nav id="header-nav" class="navbar navbar-default">
+              <div class="container">
+                <div class="navbar-header">                        
+                  <div class="navbar-brand">
+                    <a href="home.html"><h1>Course Shop App</h1></a>                    
+                  </div>
+        
+                  <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                   <ul id="nav-list" class="nav navbar-nav navbar-right">                    
+                    <li id="navMenuButton">
+                      <a href="#courses" onclick="$dc.loadMenuCategories();">
+                        </span><class="hidden-xs">COURSES</a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <class="hidden-xs">USER PROFILE</a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        </span><class="hidden-xs">USER HISTORY</a>
+                    </li>
+                    <li>
+                        <a href="login.html">
+                          </span><class="hidden-xs">LOGIN</a>
+                      </li>
+                    <li id="phone" class="hidden-xs">
+                      <a href="tel:8766742410">
+                        <span>8766742410</span></a>
+                    </li>
+                  </ul><!-- #nav-list -->
+                </div><!-- .collapse .navbar-collapse -->
+              </div><!-- .container -->
+            </nav><!-- #header-nav -->
+          </header>
+      </header>      
+
+      <h1>Education4ol</h1>
+
+      <marquee>&oast; Incredible courses by the best tutors!!! &oast; Start learning today! &oast; Use coupon codes for discount! &oast;</marquee>
+    
+      <!--About Us-->
+      <section  id="about">                                    
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h2>ABOUT US</h2>
+                <p>
+                  The platform allow teachers and students to create multimedia  learning content (YouTube) which is comprehensive and practical, using video, images, audio and text which all serve as great tools in learning new skills or information. Students can also communicate with their teachers and classmates via App called Eduol platform. It helps creating a more collaborative and interactive sessions online.<br>
+                    1.Products:<br>
+                    1.1 Eduol (App)<br>
+                    2.Services:<br>
+                    2.1 Teaching with multimedia learning content.<br>
+                    2.2 Printed and Hand Written notes on demand.<br>
+                    2.3 Career counselling for Students.<br>
+                    2.4 Online Study material for class 8-10 ,class 11-12, JEE , NEET , Engineering and Medical.<br>
+                    2.5 Online Quiz Platform with Standard Questions.<br>
+                    2.6 Online Platform for Buying and selling Notes.
+                </p>              
+            </div>        
+    </section>
+      
+      <!--Courses-->
+      <div class="courses" id="courses">
+      <h2>COURSE CATEGORIES</h2>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <section class="content">
+            <h2>Computer Science</h2>
+            <p><br>
+              Programming Languages</br>
+              Web Development</br>
+              Machine Learning</br>
+            </p>
+          </section>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <section class="content">
+            <h2>Business</h2>
+            <p><br>
+              Digital Marketing</br>
+              Organizational Behaviour</br>
+              Financial Management</br>
+            </p>
+          </section>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <section class="content">
+            <h2>Science</h2>
+            <p><br>
+              Physics</br>
+              Chemistry</br>
+              Biology</br>
+          </section>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <section class="content">
+            <h2>Art and Design</h2>
+            <p><br>
+              Fine Arts</br>
+              Architecture</br>
+              Fashion Designing</br>
+            </p>
+          </section>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12"> 
+          <section class="content">
+            <h2>Humanities</h2>
+            <p><br>
+              Languages</br>
+              Literature</br>
+              Philosophy</br>
+            </p>
+          </section>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <section class="content">
+            <h2>Medicine</h2>
+            <p><br>
+              Epidemology</br>
+              Dentistry</br>
+              Psychiatry</br>
+            </p>
+          </section>
+        </div>
+      </div>
+      
+      <!--Contact Us-->
+      <section id="contact"> 
+        <div class="container1">
+          <h2 class="subheading2">CONTACT US</h2>
+            
+            <!--Connect with us-->
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xxl-6">              
+            <h3 class="subsub text-center">MAP</h3>
+            <div class="connect">
+              <div id="map-tile">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242117.6810164236!2d73.72287798280347!3d18.524890423021006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1629874782108!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>              
+              </div>  
+              <div class="social-media">
+                <a href="https://www.instagram.com/education_4_ol/" target="blank">
+                  <img alt="Instagram" src="https://static.wixstatic.com/media/9f9c321c774844b793180620472aa4f1.png/v1/fill/w_33,h_33,al_c,q_85,usm_0.66_1.00_0.01/9f9c321c774844b793180620472aa4f1.webp">
+                </a>
+                <a href="https://www.facebook.com/education4ol4" target="blank">
+                  <img alt="Facebook" src="https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_33,h_33,al_c,q_85,usm_0.66_1.00_0.01/e316f544f9094143b9eac01f1f19e697.webp"> 
+                </a>
+                <a href="https://www.linkedin.com/company/67944634/admin/" target="blank">
+                  <img alt="LinkedIn" src="https://static.wixstatic.com/media/48a2a42b19814efaa824450f23e8a253.png/v1/fill/w_33,h_33,al_c,q_85,usm_0.66_1.00_0.01/48a2a42b19814efaa824450f23e8a253.webp">  
+                </a>                                    
+              </div>        
+            </div>
+          </div>
+            
+            <!--Write a message-->
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xxl-6">
+            <h3 class="subsub text-center">LEAVE US A MESSAGE</h3>
+            <form class="message">
+              <div class="contactform">
+              <label class="form-label">Your Name</label>
+              <input type="text" required class="form-control" placeholder="Enter your name here">
+              </div>          
+              <div class="contactform">
+                <label class="form-label">Email Address</label>
+                <input type="email" required class="form-control" placeholder="Enter your username here">
+                </div>
+                <div class="contactform">
+                  <label class="form-label">Subject</label>
+                  <input type="text" required class="form-control" placeholder="Enter the subject">
+                  </div>
+                  <div class="contactform">
+                    <label class="form-label">Your Message</label>
+                    <textarea class="form-control" required placeholder="Enter your message here" rows="3"></textarea>
+                  </div>
+              <button type="submit" class="btn" >
+                SUBMIT
+              </button>
+            </form>
+              </div>
+            <button type="button" >
+            </button>
+          </div>
+        </div>
+
+        </div>
+      </section>
+
+      <a href="#" class="top">Jump To Top</a>
+    </main>
+
+    <!-- Footer-->
+    <footer class="panel-footer">
+        <div class="container">
+          <div class="row">
+            <section id="services" class="col-sm-4">
+              <span>Other Services:</span><br>
+              Free App with free study material.<br>
+              Printed notes on Demand!<br>
+              Career counselling for Students!
+              <hr class="visible-xs">
+            </section>
+            <section id="ainternships" class="col-sm-4">
+              <span>Internships Offered:</span><br>
+              Web Development<br>
+              Machine Learning<br>
+              Content Writing and Digital Marketing<br>
+              Human Resources              
+              <hr class="visible-xs">
+            </section>
+            <section id="testimonials" class="col-sm-4">
+              <p>"Some of the best courses I've ever taken are from here! I definitely recommend it!"</p>
+              <p>"The tutors here are amazing! And courses are available for both beginners and advanced learners!"</p>
+            </section>
+          </div>
+          <div class="text-center">&copy; Copyright Madhumitha S August 2021</div>
+        </div>
+      </footer>
+
+      <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
